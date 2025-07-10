@@ -16,5 +16,6 @@ public class Lab01 {
         username.sendKeys("standard_user");
         password.sendKeys("secret_sauce");
         LoginBTN.click();
+        driver.quit();
     }
 }
